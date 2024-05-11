@@ -87,3 +87,63 @@ body {
 .center {
   text-align: center;
 }
+
+/* ag-Grid specific styles */
+.ag-theme-alpine {
+  background-color: transparent;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.ag-theme-alpine .ag-header {
+  background-color: #307e6c;
+}
+
+.ag-theme-alpine .ag-header-cell {
+  border-color: #76c0ae;
+  color: #c2e9e0;
+}
+
+.ag-theme-alpine .ag-cell {
+  border-color: #76c0ae;
+  color: #c2e9e0;
+}
+
+.ag-theme-alpine .ag-row {
+  border-color: #76c0ae;
+}
+
+.ag-theme-alpine .ag-header-cell-text {
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.ag-theme-alpine .ag-root-wrapper {
+  border: none;
+}
+
+.ag-theme-alpine .ag-paging-panel {
+  background-color: transparent;
+}
+
+.ag-theme-alpine .ag-paging-page-summary-panel {
+  color: #c2e9e0;
+}
+
+.ag-theme-alpine .ag-paging-button {
+  background-color: #307e6c;
+}
+
+.ag-theme-alpine .ag-icon {
+  color: #c2e9e0;
+}
+
+/* Additional styles */
+#result {
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  table-layout: fixed;
+  border-spacing: 1rem;
+  text-align: right;
+}
